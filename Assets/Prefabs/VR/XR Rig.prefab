@@ -1766,12 +1766,16 @@ MonoBehaviour:
   directActivationButton: 3
   teleportActivationButton: 6
   uiActivationButton: 8
+  menuButton: 1
   leftDirectController: {fileID: 8816811153371017259}
   leftTeleportController: {fileID: 469726229}
   leftUIController: {fileID: 1459289864}
   rightDirectController: {fileID: 8816811152446141143}
   rightTeleportController: {fileID: 950683175}
   rightUIController: {fileID: 174981395}
+  onMenuButtonDown:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8816811153371017259
 GameObject:
   m_ObjectHideFlags: 0
